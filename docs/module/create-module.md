@@ -43,7 +43,13 @@ Et vous pouvez copier coller le contenu de ce fichier ci-dessous :
 
 ## Etape N°3 - Créer le fichier registration.php
 
-Pour déclarer notre module il nous faut un deuxième fichier qui est le fichier `registration.php`. Idem que pour le fichier `etc/module.xml` vous pouvez copier-coller le contenu du fichier ci-dessous :
+Pour déclarer notre module il nous faut un deuxième fichier qui est le fichier `registration.php`. 
+
+```file
+app/code/Magehestia/Hello/registration.php
+```
+
+Idem que pour le fichier `etc/module.xml` vous pouvez copier-coller le contenu du fichier ci-dessous :
 
 ```php title="registration.php"
 <?php
